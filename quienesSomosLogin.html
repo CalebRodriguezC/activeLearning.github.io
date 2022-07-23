@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initian-scale=1" />
+    <title>Quienes Somos Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        function cerrarSesion() {
+            window.open("index.html")
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="homeLogin.html"><img src="img/logo.png" style="width:120px" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="homeLogin.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comoFuncionaLogin.html">Como Funciona</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienesSomosLogin.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Más Informacion</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Certificación</a></li>
+                                <li><a class="dropdown-item" href="#">Nuestros Docentes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Novedades</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a class="btn btn-outline-success" href="#" onclick="cerrarSesion()" role="button">Cerrar
+                            Sesión</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="text-left bg-image"
+             style="background-image: url(img/bg.png); height: 500px; background-position: center center; margin-top: 100px">
+            <div class="mask h-100" style="background-color: rgba(0, 0, 0, 0.6);">
+                <div class="d-flex justify-content-end align-items-center h-100" style="margin-left:40%">
+                    <div class="text-white p-5">
+                        <h1 class="mb-3">Active Learning empodera a sus estudiantes para tener una vida mejor</h1>
+                        <h4 class="mb-3">dándoles el idioma y las habilidades digitales que necesitan para tener éxito.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container mt-5">
+        <div class="row mb-5 align-items-center">
+            <div class="col">
+                <div class="container text-center">
+                    <h1>Misión</h1>
+                    <p>Queremos proporcionar a los estudiantes los conocimientos lingüísticos imprescindibles para una mejor formación personal, académica y profesional,  potenciando así la consolidación de la interculturalidad.</p>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block col-md-6 col-lg-6 col-xl-6">
+                <img class="w-75" src="img/mision.jpg" />
+            </div>
+        </div>
+        <div class="row mb-5 align-items-center">
+            <div class="col d-none d-lg-block col-md-6 col-lg-6 col-xl-6">
+                <img class="w-75" src="img/vision.png" />
+            </div>
+            <div class="col">
+                <div class="container text-center">
+                    <h1>Visión</h1>
+                    <p>Ser un centro líder y competitivo en la enseñanza de idiomas modernos, comprometido con la excelencia académica y la calidad en el servicio, destacando por su afán de mejora continua y por su papel relevante como parte de una universidad que sea referente de calidad a nivel nacional e internacional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-light text-center text-white">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="#">prueba.com</a>
+        </div>
+    </footer>
+</body>
+</html>
